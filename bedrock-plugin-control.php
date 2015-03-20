@@ -1,7 +1,7 @@
 <?php namespace Lamosty\Bedrock_Plugin_Control;
 /*
 Plugin Name: Bedrock plugin control
-Description: Force-enables or force-disables plugins specified in .env. Based on Mark Jaquith's code.
+Description: Force-enables or force-disables plugins specified in config/application.php. Based on Mark Jaquith's code.
 Version: 0.1.0
 License: GPL version 2 or any later version
 Author: Rastislav Lamos
