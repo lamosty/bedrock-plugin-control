@@ -1,0 +1,13 @@
+{
+    "name": "lamosty/bedrock-plugin-control",
+    "type": "wordpress-muplugin",
+    "authors": [
+        {
+            "name": "Rastislav Lamos",
+            "email": "lamos.rasto@gmail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "1.0.21"
+    }
+}
