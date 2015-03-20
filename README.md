@@ -15,7 +15,7 @@ I usually use Query Monitor, Debug Bar Console, P3 Profiler and Rewrite Rules In
 ```
 [...]
   "require": {
-      "lamosty/bedrock-plugin-helper": "~0.1.1"
+      "lamosty/bedrock-plugin-control": "~0.1.1"
   },
   "require-dev": {
         "wpackagist-plugin/query-monitor": "dev-trunk",
