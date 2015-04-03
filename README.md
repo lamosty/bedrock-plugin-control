@@ -13,7 +13,6 @@ This **must use** plugin activates or deactivates the development plugins based 
 I usually use Query Monitor, Debug Bar Console, P3 Profiler and Rewrite Rules Inspector on my dev machine. My project's `composer.json` thus looks like this:
 
 ```json
-[...]
   "require": {
       "lamosty/bedrock-plugin-control": "~0.1.1"
   },
@@ -23,12 +22,10 @@ I usually use Query Monitor, Debug Bar Console, P3 Profiler and Rewrite Rules In
         "wpackagist-plugin/rewrite-rules-inspector": "dev-trunk",
         "wpackagist-plugin/p3-profiler": "dev-trunk"
     }
-  [...]
 ```
 
 `config/application.php` will then look like this:
 ```php
-[...]
 **
  * Plugins which get force-enabled in development environment.
  * Include them in your composer.json "require-dev" so they get installed only on dev machine.
